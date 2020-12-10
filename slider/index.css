@@ -1,0 +1,31 @@
+.container {
+    margin: 50px;
+}
+.slider {
+    position: relative;
+    display: flex;
+}
+.slider__window {
+    position: relative;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    overflow: hidden;
+}
+.slider__wrapper {
+    position: absolute;
+    width: 600px;
+    display: flex;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 1.3s;
+}
+.slider__item {
+    width: 200px;
+    height: 200px;
+}
+.slider__item img {
+    width: 100%;
+}

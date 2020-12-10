@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="slider">
+            <img src="left-arrow.svg" alt="" class="arrow_left" onclick="slider_move(200)">
+            <div class="slider__window">
+                <div class="slider__wrapper" id="slider">
+                    <div class="slider__item">
+                        <img src="1.png" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img src="2.png" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img src="3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <img src="right-arrow.svg" alt="" class="arrow_right" onclick="slider_move(-200)">
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
